@@ -1,0 +1,168 @@
+.logo{
+  position: absolute;
+  width: 544px;
+  height: 453px;
+  left: 78px;
+  top: 322px;
+
+  background: url(WEBOARD.jpg);
+}
+
+.status{
+  position: absolute;
+  width: 217px;
+  height: 153px;
+  left: 622px;
+  top: 237px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.login_info{
+  position: absolute;
+width: 712px;
+height: 347px;
+left: 622px;
+top: 407px;
+background: #90AA80;
+
+
+position: absolute;
+width: 173px;
+height: 114px;
+left: 661px;
+top: 599px;
+background: #AFC99F;
+
+
+/* Rectangle 3 */
+position: absolute;
+width: 430px;
+height: 110px;
+left: 873px;
+top: 603px;
+
+background: #CBE3BD;
+
+
+/* Rectangle 2 */
+position: absolute;
+width: 430px;
+height: 110px;
+left: 873px;
+top: 444px;
+
+background: #CBE3BD;
+
+
+/* Rectangle 4 */
+position: absolute;
+width: 173px;
+height: 114px;
+left: 661px;
+top: 444px;
+
+background: #AFC99F;
+
+
+/* 아이디 */
+
+
+position: absolute;
+width: 122px;
+height: 88px;
+left: 703px;
+top: 484px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* 비밀번호 */
+
+
+position: absolute;
+width: 137px;
+height: 73px;
+left: 695px;
+top: 640px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.join_info{
+
+  /* Rectangle 6 */
+
+
+position: absolute;
+width: 200px;
+height: 66px;
+left: 910px;
+top: 786px;
+
+background: #AFC99F;
+
+
+/* 회원가입 */
+
+
+position: absolute;
+width: 125px;
+height: 48px;
+left: 947px;
+top: 801px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.find_id{
+  /* Rectangle 7 */
+
+
+position: absolute;
+width: 200px;
+height: 66px;
+left: 1134px;
+top: 783px;
+
+background: #AFC99F;
+
+
+/* id/pw 찾기 */
+
+
+position: absolute;
+width: 168px;
+height: 39px;
+left: 1166px;
+top: 801px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
