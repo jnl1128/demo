@@ -49,13 +49,11 @@ const FixedMenuLayout = () => (
       </Container>
     </Menu>
 ​
-    <Container text style={{ marginTop: '7em' }}>
-    <Schedule/>
+    <Container text style={{marginTop: '7em' }} >
+        <Schedule/>
     </Container>
-
-
-
   </div>
 )
+
 
 export default FixedMenuLayout

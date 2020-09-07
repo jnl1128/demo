@@ -21,7 +21,7 @@ class Boards extends Component {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      min-height: 20em;
+      min-height : 20em;
     }
     p1 > span {
       opacity: 0.4;

@@ -19,7 +19,7 @@ const FixedMenuLayout = () => (
   <div>
   <Menu fixed='top' inverted>
       <Container>
-        <Menu.Item as='a' header>
+        <Menu.Item as='a' header >
           <Image size='mini' src={logo} style={{ marginRight: '1.5em' }} />
           WE:BOARD
         </Menu.Item>
@@ -76,7 +76,7 @@ const FixedMenuLayout = () => (
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='Group 3' />
+              <Header inverted as='h4' content='Group 3'/>
               <List link inverted>
                 <List.Item as='a'>Link One</List.Item>
                 <List.Item as='a'>Link Two</List.Item>
