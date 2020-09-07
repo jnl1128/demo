@@ -1,32 +1,16 @@
 import React, { Component } from 'react';
-import "./element.css";
-import "./board.css";
-
+import { Home, Signup, Classroom, Monthly } from 'pages';
+import { Route, Switch } from 'react-router-dom';
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <div className = "a"></div>
-        <div className = "b"></div>
-        <div className = "c"></div>
-        <div className = "d"></div>
-        <div className = "e"></div>
-        <div className = "f"></div>
-        <div className = "g"></div>
-        <div className = "h"></div>
-        <div className = "add_post"></div>
-        <div className = "consult"></div>
-
-        <div className = "notice_board"></div>
-        <div className = "zoom_board"></div>
-        <div className = "chat_board"></div>
-        <div className = "attending_board"></div>
-        <div className = "qanda_board"></div>
-        <div className = "memo_board"></div>
-      </div>
-
-    )
-  }
-}
-
+    render() {
+        return (
+            <div>
+                <Route exact path="/" component={Home} />
+                <Route path="/signup" component={Signup} />
+                <Route path="/classroom" component={Classroom} />
+                <Route path="/monthly" component={Monthly} />
+            </div>
+        );
+    };
+};
 export default App;
