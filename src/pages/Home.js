@@ -12,26 +12,29 @@ import {
   Menu,
   Segment,
   Button,
+  Icon,
 } from 'semantic-ui-react'
 import logo from 'image/WEBOARD.jpg';
 
 const FixedMenuLayout = () => (
   <div>
-  <Menu fixed='top' inverted>
+  <Menu fixed='top'inverted >
       <Container>
         <Menu.Item as='a' header >
           <Image size='mini' src={logo} style={{ marginRight: '1.5em' }} />
           WE:BOARD
         </Menu.Item>
         <Menu.Item as='a'>
-        <Link to="/Classroom">교실</Link>
+          <Link to="/Classroom">
+          <Icon name = "student"/> 교실</Link>
+        </Menu.Item>
+        <Menu.Item as='a'>
+          <Link to="/Monthly">
+          <Icon name = "calendar"/> 달력</Link>
         </Menu.Item>
 ​
-        <Dropdown item simple text='Dropdown'>
+        {/*<Dropdown item simple text='Dropdown'>
           <Dropdown.Menu>
-            <Dropdown.Item>
-            <Link to="/Monthly">달력</Link>
-            </Dropdown.Item>
             <Dropdown.Item>List Item</Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Header>Header Item</Dropdown.Header>
@@ -45,7 +48,8 @@ const FixedMenuLayout = () => (
             </Dropdown.Item>
             <Dropdown.Item>List Item</Dropdown.Item>
           </Dropdown.Menu>
-        </Dropdown>
+        </Dropdown>*/}
+
       </Container>
     </Menu>
 ​

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import { Button, Form, Grid, Header, Image, Message, Segment } from 'semantic-ui-react'
+import { Button, Form, Grid, Header, Image, Message, Segment, Container,Divider, List } from 'semantic-ui-react'
 class Boards extends Component {
   render() {
     return (
@@ -10,9 +10,10 @@ class Boards extends Component {
         You can do same with CSS, the main idea is that all the elements up to the `Grid`
         below must have a height of 100%.
       */}
+
       <style>{`
         html, body {
-      background-color: #FFFFFF !important;
+      background-color: white !important;
     }
     p1{
       align-content: center;
@@ -21,7 +22,8 @@ class Boards extends Component {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      min-height : 20em;
+      min-height : 30em;
+      width: 100%;
     }
     p1 > span {
       opacity: 0.4;
@@ -29,12 +31,12 @@ class Boards extends Component {
     }
     p2{
       align-content: center;
-      background-color: #AFC99F;
+      background-color:  #AFC99F;
       color: #FFFFFF;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      min-height: 10em;
+      min-height: 15em;
     }
     p2 > span {
       opacity: 0.4;
@@ -46,35 +48,37 @@ class Boards extends Component {
     `}</style>
     <Header as='h2' inverted textAlign='center' color = "green">
   WE:BOARD
-</Header>
+  </Header>
 <Grid>
-  <Grid.Row >
-    <Grid.Column width = {4}>
-      <p1>
-        <span>Notice</span>
-      </p1>
-    </Grid.Column>
-    <Grid.Column width = {12}>
-      <p1>
-        <span>ZOOM</span>
-      </p1>
-    </Grid.Column>
-  </Grid.Row>
+    <Grid.Row >
+      <Grid.Column width = {4}>
+        <p1>
+          <span>Notice</span>
+        </p1>
+      </Grid.Column>
+      <Grid.Column width = {12}>
+        <p1>
+          <span>ZOOM</span>
+        </p1>
+      </Grid.Column>
+    </Grid.Row>
 
-  <Grid.Row>
-    <Grid.Column width={12}>
-      <p2>
-        <span>Q&A</span>
-      </p2>
-    </Grid.Column>
-    <Grid.Column width={4}>
-      <p2>
-        <span>MEMO</span>
-      </p2>
-    </Grid.Column>
-  </Grid.Row>
+    <Grid.Row>
+      <Grid.Column width={12}>
+        <p2>
+          <span>Q&A</span>
+        </p2>
+      </Grid.Column>
+      <Grid.Column width={4}>
+        <p2>
+          <span>MEMO</span>
+        </p2>
+      </Grid.Column>
+    </Grid.Row>
 </Grid>
     </div>
+
+
     )
   }
 }

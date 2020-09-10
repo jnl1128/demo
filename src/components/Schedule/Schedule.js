@@ -28,24 +28,24 @@ class Schedule extends Component {
       min-height : 20em;
     }
     `}</style>
-    <Container text style={{marginTop: '7em' }}>
+    <Grid textAlign='center'>
+    <Grid.Row>
       <p1>
       <Calendar
         onChange={this.onChange}
         value={this.state.date}
       />
       </p1>
+      {/*
       <Divider
           as='h4'
           className='header'
           horizontal
-          style={{ margin: '1em 0em', textTransform: 'uppercase' }}
+          style={{ margin: '4em 0em', textTransform: 'uppercase' }}
         >
-        </Divider>
-        <p1>
-        todolist
-        </p1>
-      </Container>
+        </Divider>*/}
+        </Grid.Row>
+      </Grid>
 
 
       </div>
